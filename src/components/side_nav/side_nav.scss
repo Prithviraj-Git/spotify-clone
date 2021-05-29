@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+     li {
+         color: #b3b3b3;
+         padding: 8px 12px;
+         display: flex;
+         align-items: center;
+         border-radius: 5px;
+         cursor: pointer;
+         font-size: 14px;
+         font-weight: bold;
+         span {
+             margin-left: 15px;
+         }
+         &:hover {
+             background:#282828;
+             font-weight: bold;
+             color: #fff;
+         }
+     }
+}
